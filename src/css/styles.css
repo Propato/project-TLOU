@@ -26,9 +26,6 @@ main:after{
     justify-content: space-evenly;
 }
 
-.informations{
-}
-
 .informations .logo{
     max-width: 450px;
     filter: invert(1);
@@ -49,11 +46,13 @@ main:after{
 }
 
 .buttons-carousel .button{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 2px solid white;
-    cursor: pointer;
+    background-color: white;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	cursor: pointer;
+	border-color: white;
 }
 
 .buttons-carousel .button.selected{
@@ -108,8 +107,8 @@ main:after{
 }
 
 @keyframes changeImage {
-    frin{
-        opacity: 0.85;;
+    from{
+        opacity: 0.65;
     }
     to{
         opacity: 1;
